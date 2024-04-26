@@ -1,0 +1,515 @@
+@media screen and (min-width: 1000px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        align-items:flex-start;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .login {
+        background-color: white;
+        width: 40vw;
+        height: 50vh;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: -3vw;
+        float: left;
+        position: absolute;
+    }
+
+    .imagebackground {
+        margin-left: 35vw;
+        margin-right: 0vw;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        width: 100vw;
+        height: 99.9vh;
+        float: left;
+        position:relative;
+        display: inline-flex;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .background {
+        color: white;
+        background-color: #181f2f;
+        margin-left: 35vw;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        width: auto;
+        height: 99.9vh;
+        float: left;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    h2 {
+        margin-top: 6vh;
+        margin-left: 14vw;
+        color: white;
+        font-weight: bold;
+        font-size: 2vw;
+    }
+
+    .text {
+        margin-top: 0vh;
+        margin-left: 6vw;
+        margin-right: 5vw;
+        display: flex;
+        text-align: justify;
+        font-size: 1.5vw;
+    }
+
+    a {
+        color: #2cc84d;
+        text-decoration: none;
+        font-size: 1.5vw;
+    }
+
+    .rights {
+        margin-top: 10vh;
+        margin-left: 10vw;
+        color: white;
+        font-size: 1.5vw;
+        font-weight: bold;
+    }
+
+    form {
+        margin-top: 2vh;
+    }
+
+    label {
+        margin-top: -2vh;
+        margin-left: 8vw;
+        font-weight: bold;
+        font-size: 1.5vw;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    input {
+        margin-left: 8vw;
+        border-radius: 5px;
+        border-color: #2cc84d;
+        padding: 10px 0px 10px 10px;
+        margin-bottom: 5vh;
+        width: 25vw;
+        font-size: 1.5vw;
+    }
+
+    .logo {
+        width: 25vw;
+        height: 30vh;
+        margin-top: 0vh;
+        margin-left: 7vw;
+    }
+
+    .nome-empresa {
+        font-weight: bold;
+        margin-bottom: 5vh;
+        margin-left: 14vw;
+        font-size: 1.5vw;
+    }
+
+    .button {
+        width: 25vw;
+        margin-top: 0vh;
+        margin-left: 8vw;
+        border-radius: 5px;
+        border-color: #2cc84d;
+        padding: 10px 0px 10px 10px;
+        margin-bottom: 5vh;
+        background-color: #2cc84d;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+
+    .button:hover {
+        background-color: #57cbb4;
+    }
+
+    .mideas {
+        width: 3vw;
+        height: 5vh;
+        margin-left: 6vw;
+        margin-right: 2vw;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 999px){
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        align-items:flex-start;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .login {
+        background-color: white;
+        width: 40vw;
+        height: 50vh;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: -3vw;
+        float: left;
+        position: absolute;
+    }
+    .imagebackground {
+        margin-left: 35vw;
+        margin-right: 0vw;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        width: 100vw;
+        height: 99.9vh;
+        float: left;
+        position:relative;
+        display: inline-flex;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .background {
+        color: white;
+        background-color: #181f2f;
+        margin-left: 35vw;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        width: auto;
+        height: 99.9vh;
+        float: left;
+        position: absolute;
+        z-index: 2;
+        opacity: 0.9;
+    }
+
+    h2 {
+        margin-top: 8vh;
+        margin-left: 8vw;
+        color: white;
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+
+    .text {
+        margin-top: 0vh;
+        margin-left: 6vw;
+        margin-right: 5vw;
+        display: flex;
+        text-align: justify;
+    }
+
+    i {
+        margin-left: 6vw;
+    }
+
+    a {
+        color: #2cc84d;
+    }
+
+    .rights {
+        margin-top: 12vh;
+        margin-left: 6vw;
+        color: white;
+        font-size: 1.8vw;
+        font-weight: bold;
+    }
+
+    form {
+        margin-top: 2vh;
+    }
+
+    label {
+        margin-top: 1vh;
+        margin-left: 8vw;
+        font-weight: bold;
+        font-size: 2vw;
+        font-family:Arial, Helvetica, sans-serif
+    }
+
+    input {
+        margin-left: 8vw;
+        border-radius: 5px;
+        border-color: #2cc84d;
+        padding: 10px 0px 10px 10px;
+        margin-bottom: 5vh;
+        width: 25vw;
+        font-size: 2vw;
+    }
+
+    .logo {
+        width: 25vw;
+        height: 30vh;
+        margin-top: 0vh;
+        margin-left: 7vw;
+    }
+
+    .nome-empresa {
+        font-weight: bold;
+        margin-left: 12vw;
+        margin-bottom: 5vh;
+        font-size: 2vw;
+    }
+
+    .button {
+        width: 25vw;
+        margin-top: 2vh;
+        margin-left: 8vw;
+        border-radius: 5px;
+        border-color: #2cc84d;
+        padding: 10px 0px 10px 10px;
+        margin-bottom: 5vh;
+        background-color: #2cc84d;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5vw;
+    }
+
+    .button:hover {
+        background-color: #57cbb4;
+    }
+
+    .mideas {
+        width: 3vw;
+        height: 4vh;
+        margin-left: 6vw;
+        margin-right: 2vw;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        align-items:flex-start;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        margin-left: 2vw;
+    }
+    
+    .login {
+        background-color: white;
+        width: 60vw;
+        height: 50vh;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 15vw;
+        float: left;
+        position: absolute;
+    }
+
+    .imagebackground {
+        display: none;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .text {
+        display: none;
+    }
+
+    h2 {
+       display: none;
+    }
+
+    i {
+        display: none;
+    }
+
+    a {
+        display: none;
+    }
+
+    .rights {
+       display: none;
+    }
+
+    form {
+        margin-top: 2vh;
+    }
+
+    label {
+        margin-top: 1vh;
+        margin-left: -2vw;
+        font-weight: bold;
+        font-size: 1.2vw;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        
+    }
+    
+    input {
+        margin-left: -2vw;
+        border-radius: 5px;
+        border-color: #2cc84d;
+        padding: 10px 0px 10px 20px;
+        margin-bottom: 5vh;
+        width: 70vw;
+    }
+
+    .logo {
+        width: 70vw;
+        height: 30vh;
+        margin-top: 0vh;
+        margin-left: -4vw;
+    
+    }
+
+    .nome-empresa {
+        font-weight: bold;
+        margin-left: 15vw;
+        font-size: 1.2vw;
+    }
+
+    .button {
+        width: 70vw;
+        margin-top: 2vh;
+        margin-left: -2vw;
+        border-radius: 5px;
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 5vh;
+        background-color: #2cc84d;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+
+    }  
+
+    .button:hover {
+        background-color: #57cbb4;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        align-items:flex-start;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        margin-left: 2vw;
+    }
+    
+    .login {
+        background-color: white;
+        width: 60vw;
+        height: 50vh;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 15vw;
+        float: left;
+        position: absolute;
+    }
+
+    .imagebackground {
+        display: none;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .text {
+        display: none;
+    }
+
+    h2 {
+       display: none;
+    }
+
+    i {
+        display: none;
+    }
+
+    a {
+        display: none;
+    }
+
+    .rights {
+       display: none;
+    }
+
+    form {
+        margin-top: 2vh;
+    }
+
+    label {
+        margin-top: 1vh;
+        margin-left: 0vw;
+        font-weight: bold;
+        font-size: 5vw;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    input {
+        margin-left: -2vw;
+        border-radius: 5px;
+        border-color: #2cc84d;
+        padding: 10px 0px 10px 8px;
+        margin-bottom: 5vh;
+        width: 70vw;
+    }
+
+    .logo {
+        width: 90vw;
+        height: 30vh;
+        margin-top: 0vh;
+        margin-left: -12vw;
+    }
+
+    .nome-empresa {
+        font-weight: bold;
+        margin-bottom: 5vh;
+        margin-left: 15vw;
+        font-size: 5vw;
+    }
+
+    .button {
+        width: 70vw;
+        margin-top: 2vh;
+        margin-left: -2vw;
+        border-radius: 5px;
+        padding: 10px 0px 10px 0px;
+        margin-bottom: 5vh;
+        background-color: #2cc84d;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        text-align: center;
+
+    }  
+
+    .button:hover {
+        background-color: #57cbb4;
+    }
+
+}
